@@ -80,8 +80,8 @@ private final String url = "jdbc:mysql://localhost:3306/hostelaccomodation1";
     }
 
 private void sendOTPByEmail(String email, String otp) {
-    final String username = "pre2002047@gmail.com"; // Your email address
-    final String password = "lzrs eelq ghdp nivc"; // Your email password
+    final String username = ""; // Your email address
+    final String password = ""; // Your email password
 
     Properties props = new Properties();
     props.put("mail.smtp.auth", "true");
